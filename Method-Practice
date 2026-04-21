@@ -1,1 +1,19 @@
+package com.pluralsight;
 
+public class Main {
+    public static void main(String[] args) {
+        // Testing methods
+        System.out.println(isEven(10));     // false
+        System.out.println(isEven(19));    // true
+        System.out.println(isPositive(-2.5));  // false
+        System.out.println(isPositive(2.2));   // true
+    }
+
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
+
+    public static boolean isPositive(double number) {
+        return number > 0;
+    }
+}
