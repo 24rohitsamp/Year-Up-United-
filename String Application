@@ -1,1 +1,14 @@
+package com.pluralsight;
 
+public class Main {
+    public static void main(String[] args) {
+        String itemName = "Oranges";
+        double itemPrice = 10;
+
+        int quantity = 5;
+
+        double total = quantity * itemPrice;
+
+        System.out.println("You bought " + quantity + " " + itemName + " for $" + total);
+    }
+}
