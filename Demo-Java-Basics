@@ -1,0 +1,42 @@
+package com.pluralsight;
+
+public class Main {
+    public static boolean newVariable;
+
+    public static void main(String[] args) {
+        final int DAYS_IN_WEEK = 7;
+
+        int firstNumber = 16;
+        System.out.println(firstNumber);
+
+        boolean isStudent = true;
+        System.out.println(isStudent);
+
+        double decimalNumber = 3.45;
+        System.out.println(decimalNumber);
+
+        String myName = "Rohit";
+        System.out.println(myName);
+
+        char letter = 'A';
+        System.out.println(letter);
+
+        int secondNumber; // declaration
+        secondNumber = 10; // initializing
+
+        int thirdNumber = 30, fourthNumber, fifthNumber;
+        fifthNumber = 65;
+
+
+
+        System.out.println("=======================================================");
+
+
+        String name;
+        System.out.println("The full name is: " + name);
+        System.out.println(newVariable);
+
+
+    }
+
+}
