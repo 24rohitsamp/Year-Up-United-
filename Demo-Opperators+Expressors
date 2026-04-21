@@ -7,7 +7,6 @@ public class Main {
 
         System.out.println("===========================================");
 
-        // Narrowing
         int myInt;
         long myLong = 5090193039139L;
 
