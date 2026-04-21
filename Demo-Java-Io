@@ -1,1 +1,52 @@
+package com.pluralsight;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        System.out.println("Please Enter your Name: ");
+        String name = myScanner.nextLine();
+
+        System.out.println("Hello Everyone, I am " + name + " and I love Cars!");
+
+        System.out.println("===============================");
+
+        System.out.println("Please Enter a Number: ");
+        int firstNumber = myScanner.nextInt();
+        firstNumber++;
+        System.out.println("The updated number is: " + firstNumber);
+
+        myScanner.close();
+
+        Scanner myScanner = new Scanner(System.in);
+
+        System.out.println("Enter the first number: ");
+        int firstNumber = myScanner.nextInt();
+
+        System.out.println("Enter the second number: ");
+        int secondNumber = myScanner.nextInt();
+        myScanner.nextLine();
+
+        int result = firstNumber + secondNumber;
+        System.out.println("The result is: " + result);
+
+        System.out.println("Which operation you would like to do next?");
+        String operation = myScanner.nextLine();
+
+        System.out.println("The new operation is: " + operation);
+
+        System.out.println("Enter a number: ");
+        int thirdNumber = myScanner.nextInt();
+        myScanner.nextLine();
+
+        System.out.println("Enter a simple message: ");
+        String simpleMessage = myScanner.nextLine();
+
+        myScanner.close();
+
+
+    }
+}
