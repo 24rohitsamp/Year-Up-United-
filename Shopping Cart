@@ -1,1 +1,17 @@
+package com.pluralsight;
 
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("My Shopping List:");
+        System.out.println("- Oranges");
+        System.out.println("- Protein");
+        System.out.println("- Banana");
+        System.out.println("- Almond");
+        System.out.println("- Avacado");
+        System.out.println("- Rice");
+        System.out.println("- Flour");
+        System.out.println("- Tortilla");
+        System.out.println("- Chicken");
+        System.out.println("- Juice");
+    }
+}
