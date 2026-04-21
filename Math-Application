@@ -1,1 +1,55 @@
+package com.pluralsight;
 
+public class Main {
+    public static void main(String[] args) {
+
+
+        double bobSalary = 80000.0;
+        double garySalary = 60000.0;
+        double highestSalary = Math.max(bobSalary, garySalary);
+        System.out.println("The highest salary is " + highestSalary);
+
+
+        double carPrice = 10000.0;
+        double truckPrice = 90000.0;
+        double minPrice = Math.min(carPrice, truckPrice);
+        System.out.println("The smallest price is " + minPrice);
+
+        double radius = 4.25;
+        double area = Math.PI * Math.pow(radius, 2);
+        System.out.println("The area of the circle is " + area);
+
+        double num1 = 9.0;
+        double sqrtNum1 = Math.sqrt(num1);
+        System.out.println("The square root of " + num1 + " is " + sqrtNum1);
+
+        int x1 = 5, y1 = 20, x2 = 95, y2 = 99;
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        System.out.println("The distance between the points is " + distance);
+
+        double num2 = -3.8;
+        double absNum2 = Math.abs(num2);
+        System.out.println("The absolute value of " + num2 + " is " + absNum2);
+
+        double randomNum = Math.random();
+        System.out.println("The random number is " + randomNum);
+
+        int days = 30;
+        int hoursPerDay = 24;
+        int minutesPerHour = 60;
+        int secondsPerMinute = 60;
+        int millisecondsPerSecond = 1000;
+
+        int hours = Math.multiplyExact(days, hoursPerDay);
+
+        int minutes = Math.multiplyExact(hours, minutesPerHour);
+
+        int seconds = Math.multiplyExact(minutes, secondsPerMinute);
+
+        long milliseconds = Math.multiplyExact(seconds, millisecondsPerSecond);
+
+        System.out.println("Minutes in " + days + " days: " + minutes);
+        System.out.println("Milliseconds in " + days + " days: " + milliseconds);
+    }
+
+}
