@@ -1,1 +1,34 @@
+package com.pluralsight;
 
+public class Main {
+    public static void main(String[] args) {
+
+        int x = 37;
+
+        System.out.println("===========================================");
+
+        // Narrowing
+        int myInt;
+        long myLong = 5090193039139L;
+
+        System.out.println(myLong);
+
+        myInt = (int) myLong;
+
+        System.out.println(myInt);
+
+        System.out.println("===========================================");
+
+        float myFloat;
+        double myDouble = 199.99999999;
+
+        System.out.println(myDouble);
+
+        myFloat = (float) myDouble;
+
+        System.out.println(myFloat);
+
+
+
+    }
+}
